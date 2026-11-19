@@ -1,0 +1,24 @@
+# Build artifacts & installed tools — never commit these
+build/
+src/
+tmp/
+cache/
+logs/
+nix-home/
+nix-profile/
+go/
+cargo/
+rustup/
+config/
+
+# Archives
+*.tar.gz
+*.tar.xz
+*.zip
+
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
